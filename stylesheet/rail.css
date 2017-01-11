@@ -1,16 +1,21 @@
-#rail {
-  width: 2000px;
-  position: absolute;
-  cursor: move;
-  top: 120px;
-  left: 363px;
-  opacity: 1;
+.rail {
+  width: 1850px;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
-img {
-  vertical-align: middle;
+.rail ul {
+  min-width: 100%;
+  white-space: nowrap;
+  padding: 0;
 }
 
-figure.picplace {
-  margin: 0px 60px 0px 0px;
+.rail li {
+  display: inline-block;
+  width: 400px;
+  height: 100%;
+  margin: 0 auto;
 }
+
+.rail li img {max-width: 400px}
