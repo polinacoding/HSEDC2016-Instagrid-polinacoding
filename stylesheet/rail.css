@@ -1,0 +1,16 @@
+#rail {
+  width: 2000px;
+  position: absolute;
+  cursor: move;
+  top: 120px;
+  left: 363px;
+  opacity: 1;
+}
+
+img {
+  vertical-align: middle;
+}
+
+figure.picplace {
+  margin: 0px 60px 0px 0px;
+}
