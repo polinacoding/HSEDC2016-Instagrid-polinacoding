@@ -1,11 +1,18 @@
-.menubar {
+.header,
+.footer {
   width: 100%;
 }
 
-.menubar div {
+.header div,
+.footer div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 10vh;
   background-color: red;
+}
+
+img.logo {
+  height: 50px;
+  width: 50px;
 }
