@@ -9,10 +9,22 @@
   justify-content: space-between;
   align-items: center;
   height: 10vh;
-  background-color: red;
+  background-color: white;
 }
 
 img.logo {
   height: 50px;
+  width: 300px;
+}
+
+.mishka {
+  height: 50px;
   width: 50px;
+  margin-left: 50vh;
+}
+
+.about {
+  display: block;
+  width: 130px;
+  height: 50px;
 }
