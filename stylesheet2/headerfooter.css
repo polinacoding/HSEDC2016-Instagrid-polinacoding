@@ -19,6 +19,11 @@ img.logo {
   width: 300px;
 }
 
+.footer {
+  top: calc(100vh - 50px);
+  position: fixed;
+}
+
 .mishka {
   display: block;
   height: 50px;
