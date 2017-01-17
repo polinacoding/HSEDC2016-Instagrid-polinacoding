@@ -1,3 +1,7 @@
+body {
+  min-width: 996px;
+}
+
 .gallery {
   height: 100vh;
   overflow-x: scroll;
