@@ -3,6 +3,11 @@
   width: 100%;
 }*/
 
+
+.header div {
+  top: 0;
+}
+
 .header div,
 .footer div {
   display: flex;
@@ -12,11 +17,12 @@
   width: 100%;
   background-color: white;
   position: fixed;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
 }
 
 img.logo {
-  height: 50px;
-  width: 300px;
+  height: 30px;
+  width: 200px;
 }
 
 .footer {
@@ -26,13 +32,13 @@ img.logo {
 
 .mishka {
   display: block;
-  height: 50px;
-  width: 50px;
-  margin-left: 50vh;
+  height: 30px;
+  width: 30px;
+  margin: 0 auto;
 }
 
 .about {
   display: block;
-  width: 130px;
-  height: 50px;
+  width: 80px;
+  height: 30px;
 }
