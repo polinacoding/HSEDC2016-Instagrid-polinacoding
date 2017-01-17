@@ -1,15 +1,17 @@
-.header,
+/*.header,
 .footer {
   width: 100%;
-}
+}*/
 
 .header div,
 .footer div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
+  height: 50px;
+  width: 100%;
   background-color: white;
+  position: fixed;
 }
 
 img.logo {
@@ -18,6 +20,7 @@ img.logo {
 }
 
 .mishka {
+  display: block;
   height: 50px;
   width: 50px;
   margin-left: 50vh;
