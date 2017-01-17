@@ -1,6 +1,6 @@
 body {
   min-width: 996px;
-  background: url('..images/video.png');
+  background: url(..images/video.png);
   background-size: cover;
 }
 
