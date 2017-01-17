@@ -1,0 +1,43 @@
+/*.header,
+.footer {
+  width: 100%;
+}*/
+
+
+.header div {
+  top: 0;
+}
+
+.header div,
+.footer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+}
+
+img.logo {
+  height: 50px;
+  width: 300px;
+}
+
+.footer {
+  top: calc(100vh - 50px);
+  position: fixed;
+}
+
+.mishka {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin-left: 50vh;
+}
+
+.about {
+  display: block;
+  width: 130px;
+  height: 50px;
+}
